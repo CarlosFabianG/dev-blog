@@ -9,7 +9,7 @@ class MyDocument extends Document {
   render() {
     const meta = {
       title: 'A blog by Carlos Fabián',
-      description: 'Sharing my thoughts about coding',
+      description: 'I explain with words and code',
       image:
         'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
     }
