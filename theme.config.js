@@ -1,14 +1,15 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+  readMore: false,
   footer: (
-    <small style={{ display: 'block', marginTop: '8rem' }}>
+    <small style={{ display: 'block', marginTop: '8rem', color: 'white' }}>
       <time>{YEAR}</time> © Carlos Fabian.
       <a href="/feed.xml">RSS</a>
       <style jsx>{`
         a {
           float: right;
-          color: #FF2B61;
+          color: #a2ffff;
         }
         @media screen and (max-width: 480px) {
           article {
